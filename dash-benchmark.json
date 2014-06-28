@@ -1,0 +1,21 @@
+{
+    "name": "fred",
+    "changelog": [],
+    "tests": [
+        {
+            "name": "dna_backtrack",
+            "sourceFiles": ["d_dna.d"],
+            "versionDefines": ["backtracking"]
+        },
+        {
+            "name": "dna_ct",
+            "sourceFiles": ["d_dna.d"],
+            "versionDefines": ["ct_regex"]
+        },
+        {
+            "name": "dna_thompson",
+            "sourceFiles": ["d_dna.d"],
+            "versionDefines": ["thompson"]
+        }
+    ]
+}
